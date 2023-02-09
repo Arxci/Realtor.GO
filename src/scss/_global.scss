@@ -1,0 +1,104 @@
+* {
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Inter', sans-serif;
+	color: $white;
+	margin: 0rem;
+	padding: 0rem;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: $backgroundColor;
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	&-sections {
+		width: stretch;
+	}
+}
+
+.container {
+	max-width: 80rem;
+	padding: 0rem 2rem;
+
+	@include breakpoint-down(small) {
+		padding: 0rem;
+	}
+}
+
+.hide-for-mobile {
+	@include breakpoint-down(medium) {
+		display: none;
+		> * {
+			display: none;
+		}
+	}
+}
+
+.hide-for-desktop {
+	@include breakpoint-up(large) {
+		display: none;
+		> * {
+			display: none;
+		}
+	}
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: stretch;
+	height: 4rem;
+	margin: 1rem 0rem;
+	gap: 10px;
+}
+
+.pagination a {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid rgba($grey, 0.5);
+	color: $black;
+	cursor: pointer;
+
+	@include breakpoint-down(xsmall) {
+		font-size: 14px;
+		padding: 7.5px;
+	}
+}
+
+.pagination__link {
+	font-weight: bold;
+	> i {
+		color: $black;
+	}
+}
+
+.previous__link,
+.next__link {
+	@include breakpoint-down(xsmall) {
+		display: none;
+	}
+}
+
+.pagination__link--active a {
+	color: $white;
+	background-color: $grey;
+	border: 1px solid $grey;
+	transition: background-color 100ms ease-in-out, color 300ms ease-in-out;
+}
+
+.pagination__link--disabled a {
+	> i {
+		color: rgb(198, 197, 202);
+	}
+
+	border: 1px solid rgb(198, 197, 202);
+	pointer-events: none;
+}

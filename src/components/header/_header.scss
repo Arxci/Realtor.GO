@@ -1,0 +1,31 @@
+.header {
+	width: stretch;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+
+	&-nav {
+		height: $headerHeight;
+		background-color: rgba($black, 0.5);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		padding: 0rem 2rem;
+
+		@include breakpoint-down(medium) {
+			padding: 0rem 1rem;
+		}
+	}
+
+	&-logo {
+		color: $white;
+	}
+}
+
+.nav {
+	&-list {
+		display: flex;
+		gap: 40px;
+	}
+}

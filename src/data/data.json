@@ -1,0 +1,88 @@
+{
+	"mostPopularHomes": [
+		{
+			"location": "Cedar Rapids, Iowa 52402",
+			"datePosted": "01/01/2023",
+			"price": "$100,000.00",
+			"image": "https://images.pexels.com/photos/3288100/pexels-photo-3288100.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"key": 0
+		},
+		{
+			"location": "Cedar Rapids, Iowa 52402",
+			"datePosted": "01/01/2023",
+			"price": "$100,000.00",
+			"image": "https://images.pexels.com/photos/3288102/pexels-photo-3288102.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"key": 1
+		},
+		{
+			"location": "Cedar Rapids, Iowa 52402",
+			"datePosted": "01/01/2023",
+			"price": "$100,000.00",
+			"image": "https://images.pexels.com/photos/3288103/pexels-photo-3288103.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"key": 2
+		},
+		{
+			"location": "Cedar Rapids, Iowa 52402",
+			"datePosted": "01/01/2023",
+			"price": "$100,000.00",
+			"image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"key": 3
+		},
+		{
+			"location": "Cedar Rapids, Iowa 52402",
+			"datePosted": "01/01/2023",
+			"price": "$100,000.00",
+			"image": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"key": 4
+		},
+		{
+			"location": "Cedar Rapids, Iowa 52402",
+			"datePosted": "01/01/2023",
+			"price": "$100,000.00",
+			"image": "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"key": 5
+		},
+		{
+			"location": "Cedar Rapids, Iowa 52402",
+			"datePosted": "01/01/2023",
+			"price": "$100,000.00",
+			"image": "https://images.pexels.com/photos/259593/pexels-photo-259593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"key": 6
+		},
+		{
+			"location": "Cedar Rapids, Iowa 52402",
+			"datePosted": "01/01/2023",
+			"price": "$100,000.00",
+			"image": "https://images.pexels.com/photos/209296/pexels-photo-209296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"key": 7
+		},
+		{
+			"location": "Cedar Rapids, Iowa 52402",
+			"datePosted": "01/01/2023",
+			"price": "$100,000.00",
+			"image": "https://images.pexels.com/photos/277667/pexels-photo-277667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"key": 8
+		},
+		{
+			"location": "Cedar Rapids, Iowa 52402",
+			"datePosted": "01/01/2023",
+			"price": "$100,000.00",
+			"image": "https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"key": 9
+		},
+		{
+			"location": "Cedar Rapids, Iowa 52402",
+			"datePosted": "01/01/2023",
+			"price": "$100,000.00",
+			"image": "https://images.pexels.com/photos/53610/large-home-residential-house-architecture-53610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"key": 10
+		},
+		{
+			"location": "Cedar Rapids, Iowa 52402",
+			"datePosted": "01/01/2023",
+			"price": "$100,000.00",
+			"image": "https://images.pexels.com/photos/164522/pexels-photo-164522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"key": 11
+		}
+	]
+}

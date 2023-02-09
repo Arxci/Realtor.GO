@@ -1,0 +1,186 @@
+.home {
+	position: relative;
+	&-section {
+		&__banner {
+			height: 700px;
+			background-image: linear-gradient(
+					to top,
+					rgba($black, 1) 0%,
+					rgba($black, 0.4) 30%
+				),
+				url('https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+
+			@include breakpoint-down(medium) {
+				height: 500px;
+			}
+		}
+	}
+
+	&-content {
+		height: stretch;
+		width: stretch;
+		padding: 2rem;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+
+		@include breakpoint-down(medium) {
+			padding: 1rem 2rem;
+		}
+
+		@include breakpoint-down(small) {
+			text-align: center;
+		}
+
+		&-title {
+			font-weight: 600;
+			font-size: 4rem;
+
+			@include breakpoint-down(medium) {
+				font-size: calc(1.2em + 3vw);
+			}
+		}
+
+		&-subtext {
+			font-weight: 300;
+			font-size: 1.5rem;
+			color: rgba(white, 0.6);
+
+			@include breakpoint-down(medium) {
+				font-size: calc(0.8em + 1vw);
+			}
+		}
+
+		&-search {
+			margin-top: 4rem;
+			position: relative;
+
+			@include breakpoint-down(small) {
+				margin-top: 6rem;
+			}
+
+			&__input {
+				width: stretch;
+				backdrop-filter: blur(10px);
+				background-color: rgba($white, 0.4);
+				border: none;
+				outline: none;
+				padding: 1rem;
+				border-radius: 100px;
+				color: $black;
+
+				@include breakpoint-down(small) {
+					padding: 0.75rem;
+				}
+
+				&::placeholder {
+					color: $black;
+				}
+			}
+
+			&__button {
+				top: 50%;
+				transform: translateY(-50%);
+				cursor: pointer;
+				right: 0;
+				width: 125px;
+				height: stretch;
+				padding: 1.5rem;
+				border-radius: 100px;
+				border: none;
+				outline: none;
+				position: absolute;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				backdrop-filter: blur(10px);
+				background-color: rgba($grey, 0.7);
+
+				@include breakpoint-down(small) {
+					padding: 1.25rem;
+				}
+			}
+		}
+	}
+
+	&-stats {
+		height: clamp(110px, 7vw, 150px);
+		width: stretch;
+		padding: 0rem 2rem;
+		position: absolute;
+		transform: translateY(-50%);
+
+		@include breakpoint-down(medium) {
+			padding: 0rem 1rem;
+		}
+
+		&__container {
+			backdrop-filter: blur(10px);
+			border-radius: 10px;
+			width: stretch;
+			height: stretch;
+			background-color: rgba($grey, 0.7);
+			display: flex;
+		}
+
+		&__wrapper {
+			padding: 1rem;
+			height: stretch;
+			width: stretch;
+		}
+
+		&__list {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			align-items: center;
+			gap: 30px;
+			height: stretch;
+			width: stretch;
+
+			&-item {
+				display: flex;
+
+				flex-direction: column;
+				align-items: center;
+				gap: 10px;
+				width: 30%;
+				position: relative;
+
+				> i {
+					color: rgba($white, 0.8);
+					font-size: 2rem;
+					@include breakpoint-down(medium) {
+						font-size: calc(1em + 0.7vw);
+					}
+				}
+
+				> p {
+					font-size: 1rem;
+					font-weight: 500;
+					text-align: center;
+					color: rgba($white, 0.8);
+
+					@include breakpoint-down(medium) {
+						font-size: calc(0.5em + 0.7vw);
+					}
+				}
+
+				&:nth-child(1):after,
+				&:nth-child(2):after {
+					content: '';
+					position: absolute;
+					width: 2px;
+					height: clamp(70px, 5vw, 100px);
+					background-color: rgba($white, 0.8);
+					bottom: 50%;
+					right: 0;
+					transform: translate(15px, 50%);
+				}
+			}
+		}
+	}
+}

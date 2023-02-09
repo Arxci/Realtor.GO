@@ -20,7 +20,7 @@ const Listings = () => {
 	}
 
 	return (
-		<div className="listings">
+		<div id="listings" className="listings">
 			<div className="listings-container">
 				<div className="listings-wrapper">
 					<div className="listings-text">

@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 
-const HeaderLink = ({ path, text }) => {
+const HeaderLink = ({ path, text, onPressed }) => {
 	return (
-		<li className="nav-list-link">
+		<li className="nav-list-link" onClick={() => onPressed()}>
 			<Link to={path}>{text}</Link>
 		</li>
 	)
@@ -12,6 +12,7 @@ const HeaderLink = ({ path, text }) => {
 HeaderLink.defaultProps = {
 	path: '/',
 	text: 'Link',
+	onPressed: () => {},
 }
 
 export default HeaderLink

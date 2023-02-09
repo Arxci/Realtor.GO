@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const Listing = ({ listing }) => {
 	const item = {
-		hidden: { y: 5, opacity: 0, scale: 0.95 },
+		hidden: { y: 5, opacity: 0.7, scale: 0.95 },
 		visible: {
 			y: 0,
 			opacity: 1,
@@ -19,7 +19,7 @@ const Listing = ({ listing }) => {
 			className="listing"
 		>
 			<div className="listing-image">
-				<img src={listing.image} alt="listing" />
+				<img loading="lazy" src={listing.image} alt="listing" />
 			</div>
 			<div className="listing-wrapper">
 				<div className="listing-content">

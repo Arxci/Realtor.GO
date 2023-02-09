@@ -4,7 +4,7 @@ import Listings from '../listings/Listings'
 
 const Home = () => {
 	return (
-		<section className="home">
+		<section id="home" className="home">
 			<div className="home-section__banner">
 				<div className="home-content">
 					<h1 className="home-content-title">

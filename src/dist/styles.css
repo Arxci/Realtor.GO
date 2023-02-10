@@ -666,4 +666,21 @@ body {
   font-size: 0.8rem;
   flex: 1;
   text-align: right;
+}
+
+.contact {
+  color: #000000;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-container {
+  height: -webkit-fill-available;
+  height: -moz-available;
+  height: stretch;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: stretch;
+  margin: 2rem;
 }/*# sourceMappingURL=styles.css.map */

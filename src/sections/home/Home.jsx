@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeStats from '../../components/homeStats/HomeStats'
+import Contact from '../contact/Contact'
 import Listings from '../listings/Listings'
 import Reviews from '../reviews/Reviews'
 
@@ -26,6 +27,7 @@ const Home = () => {
 			</div>
 			<Listings />
 			<Reviews />
+			<Contact />
 		</section>
 	)
 }

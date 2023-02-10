@@ -1,0 +1,13 @@
+.contact {
+	color: $black;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&-container {
+		height: stretch;
+		width: stretch;
+		margin: 2rem;
+	}
+}

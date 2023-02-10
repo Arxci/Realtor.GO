@@ -27,7 +27,7 @@ const Header = () => {
 					<HeaderLink path="/#home" text="Home" />
 					<HeaderLink path="/#listings" text="Listings" />
 					<HeaderLink path="/#reviews" text="Reviews" />
-					<HeaderLink path="/" text="Contact" />
+					<HeaderLink path="/#contact" text="Contact" />
 				</ol>
 				<i
 					onClick={() => setHamburgerOpen(!hamburgerOpen)}
@@ -52,7 +52,7 @@ const Header = () => {
 						onPressed={() => setHamburgerOpen(false)}
 					/>
 					<HeaderLink
-						path="/"
+						path="/#contact"
 						text="Contact"
 						onPressed={() => setHamburgerOpen(false)}
 					/>

@@ -1,13 +1,60 @@
 .contact {
 	color: $black;
-	height: 500px;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 2rem;
 
 	&-container {
 		height: stretch;
 		width: stretch;
 		margin: 2rem;
+
+		@include breakpoint-down(small) {
+			margin: 1rem;
+		}
+	}
+
+	&-text {
+		&-title {
+			color: $black;
+			margin-bottom: 2rem;
+		}
+	}
+
+	&-form {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		&-text {
+			color: $black;
+		}
+	}
+
+	&-input {
+		border: 1px solid rgba($grey, 0.6);
+		padding: 0.5rem;
+		border-radius: 10px;
+		width: 50%;
+		color: $black;
+
+		@include breakpoint-down(medium) {
+			width: stretch;
+		}
+	}
+
+	&-message {
+		border: 1px solid rgba($grey, 0.6);
+		padding: 0.5rem;
+		border-radius: 10px;
+		height: 200px;
+		width: 50%;
+		color: $black;
+		resize: none;
+
+		@include breakpoint-down(medium) {
+			width: stretch;
+		}
 	}
 }

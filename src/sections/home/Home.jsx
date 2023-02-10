@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeStats from '../../components/homeStats/HomeStats'
 import Listings from '../listings/Listings'
+import Reviews from '../reviews/Reviews'
 
 const Home = () => {
 	return (
@@ -24,6 +25,7 @@ const Home = () => {
 				<HomeStats />
 			</div>
 			<Listings />
+			<Reviews />
 		</section>
 	)
 }

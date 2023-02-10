@@ -1,88 +1,115 @@
 {
 	"mostPopularHomes": [
 		{
-			"location": "Cedar Rapids, Iowa 52402",
-			"datePosted": "01/01/2023",
-			"price": "$100,000.00",
+			"location": "San Antonio, Texas 78451",
+			"datePosted": "01/20/2023",
+			"price": "$70,000.00",
 			"image": "https://images.pexels.com/photos/3288100/pexels-photo-3288100.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"key": 0
 		},
 		{
-			"location": "Cedar Rapids, Iowa 52402",
-			"datePosted": "01/01/2023",
-			"price": "$100,000.00",
+			"location": "Waterloo, Iowa 24514",
+			"datePosted": "04/17/2022",
+			"price": "$50,000.00",
 			"image": "https://images.pexels.com/photos/3288102/pexels-photo-3288102.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"key": 1
 		},
 		{
-			"location": "Cedar Rapids, Iowa 52402",
-			"datePosted": "01/01/2023",
-			"price": "$100,000.00",
+			"location": "New York City, New York 36251",
+			"datePosted": "12/04/2022",
+			"price": "$150,000.00",
 			"image": "https://images.pexels.com/photos/3288103/pexels-photo-3288103.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"key": 2
 		},
 		{
-			"location": "Cedar Rapids, Iowa 52402",
-			"datePosted": "01/01/2023",
-			"price": "$100,000.00",
+			"location": "Boise, Idaho 97458",
+			"datePosted": "01/14/2023",
+			"price": "$350,000.00",
 			"image": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"key": 3
 		},
 		{
 			"location": "Cedar Rapids, Iowa 52402",
-			"datePosted": "01/01/2023",
-			"price": "$100,000.00",
+			"datePosted": "01/27/2023",
+			"price": "$275,000.00",
 			"image": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"key": 4
 		},
 		{
-			"location": "Cedar Rapids, Iowa 52402",
-			"datePosted": "01/01/2023",
-			"price": "$100,000.00",
+			"location": "Phoenix, Arizona 41025",
+			"datePosted": "12/16/2022",
+			"price": "$450,000.00",
 			"image": "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"key": 5
 		},
 		{
-			"location": "Cedar Rapids, Iowa 52402",
-			"datePosted": "01/01/2023",
-			"price": "$100,000.00",
+			"location": "San Francisco, California 45799",
+			"datePosted": "01/06/2022",
+			"price": "$375,000.00",
 			"image": "https://images.pexels.com/photos/259593/pexels-photo-259593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"key": 6
 		},
 		{
-			"location": "Cedar Rapids, Iowa 52402",
-			"datePosted": "01/01/2023",
-			"price": "$100,000.00",
+			"location": "Seattle, Washington 31654",
+			"datePosted": "09/04/2022",
+			"price": "$500,000.00",
 			"image": "https://images.pexels.com/photos/209296/pexels-photo-209296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"key": 7
 		},
 		{
-			"location": "Cedar Rapids, Iowa 52402",
-			"datePosted": "01/01/2023",
-			"price": "$100,000.00",
+			"location": "Chicago, Illinois 65412",
+			"datePosted": "07/03/2022",
+			"price": "$350,000.00",
 			"image": "https://images.pexels.com/photos/277667/pexels-photo-277667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"key": 8
 		},
 		{
-			"location": "Cedar Rapids, Iowa 52402",
-			"datePosted": "01/01/2023",
-			"price": "$100,000.00",
+			"location": "Denver, Colorado 97451",
+			"datePosted": "02/09/2022",
+			"price": "$700,000.00",
 			"image": "https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"key": 9
 		},
 		{
-			"location": "Cedar Rapids, Iowa 52402",
-			"datePosted": "01/01/2023",
-			"price": "$100,000.00",
+			"location": "Portland, Oregon 41256",
+			"datePosted": "04/23/2022",
+			"price": "$550,000.00",
 			"image": "https://images.pexels.com/photos/53610/large-home-residential-house-architecture-53610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"key": 10
 		},
 		{
-			"location": "Cedar Rapids, Iowa 52402",
-			"datePosted": "01/01/2023",
-			"price": "$100,000.00",
+			"location": "New Orleans, Louisiana 74852",
+			"datePosted": "12/17/2022",
+			"price": "$435,000.00",
 			"image": "https://images.pexels.com/photos/164522/pexels-photo-164522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"key": 11
+		}
+	],
+
+	"reviews": [
+		{
+			"name": "Alan Weiser",
+			"review": "Amazing company! They helped me find my dream home. I would highly recommend using their services.",
+			"date": "04/01/2021",
+			"avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"rating": 8.5,
+			"key": 0
+		},
+		{
+			"name": "Becky Feller",
+			"review": "Found the perfect place for me and my family.",
+			"date": "07/19/2020",
+			"avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"rating": 9.25,
+			"key": 1
+		},
+		{
+			"name": "John Gross",
+			"review": "I love this company. Amazing to work with and very helpful!",
+			"date": "02/24/2022",
+			"avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"rating": 7.45,
+			"key": 2
 		}
 	]
 }

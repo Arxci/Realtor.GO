@@ -27,7 +27,7 @@ const Listing = ({ listing }) => {
 					<p className="listing-text__date">{listing.datePosted}</p>
 				</div>
 				<div className="listing-details">
-					<button className="listing-button">See More</button>
+					<button className="listing-button">Learn More</button>
 					<p className="listing-text__price">{listing.price}</p>
 				</div>
 			</div>

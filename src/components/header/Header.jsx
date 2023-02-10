@@ -18,20 +18,20 @@ const Header = () => {
 	}, [])
 
 	return (
-		<header className="header container">
-			<nav className="header-nav">
+		<header className="header ">
+			<nav className="header-nav container">
 				<Link to="#home" onClick={() => setHamburgerOpen(false)}>
 					<h1 className="header-logo">Realtor.GO</h1>
 				</Link>
 				<ol className="nav-list hide-for-mobile">
 					<HeaderLink path="/#home" text="Home" />
 					<HeaderLink path="/#listings" text="Listings" />
-					<HeaderLink path="/" text="Reviews" />
+					<HeaderLink path="/#reviews" text="Reviews" />
 					<HeaderLink path="/" text="Contact" />
 				</ol>
 				<i
 					onClick={() => setHamburgerOpen(!hamburgerOpen)}
-					className="fa-solid fa-bars hide-for-desktop"
+					className="nav-hamburger fa-solid fa-bars hide-for-desktop"
 				></i>
 			</nav>
 			<div className={hamburgerOpen ? 'hamburger-menu open' : 'hamburger-menu'}>
@@ -47,7 +47,7 @@ const Header = () => {
 						onPressed={() => setHamburgerOpen(false)}
 					/>
 					<HeaderLink
-						path="/"
+						path="/#reviews"
 						text="Reviews"
 						onPressed={() => setHamburgerOpen(false)}
 					/>

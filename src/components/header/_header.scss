@@ -1,33 +1,50 @@
 .header {
 	width: stretch;
 	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba($green, 0.8);
 	top: 0;
 	z-index: 999;
 
 	&-nav {
 		height: $headerHeight;
-		background-color: rgba($grey, 0.6);
+
 		backdrop-filter: blur(10px);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-
-		padding: 0rem 2rem;
-
-		@include breakpoint-down(medium) {
-			padding: 0rem 1rem;
-		}
+		width: stretch;
 	}
 
 	&-logo {
+		margin-left: 2rem;
 		color: $white;
+
+		@include breakpoint-down(medium) {
+			margin-left: 1rem;
+		}
 	}
 }
 
 .nav {
+	&-hamburger {
+		margin-right: 2rem;
+
+		@include breakpoint-down(medium) {
+			margin-right: 1rem;
+		}
+	}
+
 	&-list {
 		display: flex;
 		gap: 40px;
+		margin-right: 2rem;
+
+		@include breakpoint-down(medium) {
+			margin-right: 1rem;
+		}
 
 		&-link {
 			position: relative;
@@ -60,22 +77,19 @@
 	&-menu {
 		position: absolute;
 		right: 0;
+		top: $headerHeight;
 		width: 70%;
-		height: 100vh;
+		height: calc(100vh - $headerHeight);
 		background-color: rgba($grey, 0.6);
 		backdrop-filter: blur(10px);
 		transform: translateX(200%);
 		z-index: 100;
-		margin: 0rem 2rem;
+
 		transition: opacity 100ms ease-in-out;
 		opacity: 0;
 
 		> * {
 			pointer-events: none;
-		}
-
-		@include breakpoint-down(small) {
-			margin: 0rem 0rem;
 		}
 
 		&.open {
@@ -84,6 +98,8 @@
 			transform: translateX(0);
 			> * {
 				pointer-events: all;
+				animation-delay: 0ms;
+				animation: fade-out 0ms reverse;
 			}
 		}
 	}
